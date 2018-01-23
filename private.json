@@ -1,8 +1,8 @@
 [
     {
         "auth": {
-            "username": "totalconnect username",
-            "password": "totalconnect password"
+            "username": "username",
+            "password": "password"
         }
     }
 ]
