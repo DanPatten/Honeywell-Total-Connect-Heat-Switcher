@@ -30,8 +30,9 @@ var loginInfo = require('./private.json');
         result = await CheckHeat(hwl);
         if (result !== 0) {
             break;
-        }
-        await hwl.waitFor(1000);
+        }  
+        await hwl.goto('https://mytotalconnectcomfort.com/portal');
+        await hwl.waitFor(1000 * i);
     }
 
     //Close Browser
